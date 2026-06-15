@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ExamenAcademy · domina el Examen Final de Dinámica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='80'>🎯</text></svg>">
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      macros: {
+        vec: ['\\mathbf{#1}', 1],
+        RR: '\\mathbb{R}',
+        pd: ['\\frac{\\partial #1}{\\partial #2}', 2],
+        norm: ['\\left\\lVert #1 \\right\\rVert', 1],
+        rot: '\\operatorname{rot}',
+        div: '\\operatorname{div}',
+        grad: '\\nabla',
+        D: ['\\frac{d #1}{d #2}', 2],
+        uv: ['\\hat{#1}', 1],
+        ud: ['\\dot{#1}', 1],
+        udd: ['\\ddot{#1}', 1]
+      }
+    },
+    svg: { fontCache: 'global' },
+    startup: {
+      ready: () => { MathJax.startup.defaultReady(); window.__mathjaxReady = true; }
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" id="MathJax-script" async></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand" onclick="App.goHome()">
+    <div class="brand-logo">🎯</div>
+    <div class="brand-text"><b>ExamenAcademy</b><span>FIS1514 · Examen Final · 02-jul</span></div>
+  </div>
+  <div class="topbar-spacer"></div>
+  <div class="chip chip-fire" id="chipFire" title="Días seguidos estudiando"><span class="num" id="streakNum">0</span> 🔥</div>
+  <div class="chip chip-nota" id="chipNota" title="Promedio en los quizzes"><span class="num" id="notaNum">—</span> nota</div>
+  <div class="icon-btn" id="themeBtn" title="Modo claro / oscuro" onclick="App.toggleTheme()">◐</div>
+  <div class="icon-btn" id="resetBtn" title="Reiniciar progreso" onclick="App.resetAll()">↺</div>
+</header>
+
+<main class="wrap" id="view"><!-- render dinámico --></main>
+
+<div class="toast" id="toast"></div>
+
+<script src="diagrams.js"></script>
+<script src="content.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
