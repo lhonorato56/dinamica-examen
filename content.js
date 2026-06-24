@@ -55,7 +55,8 @@ U({
           ['<b>⚪ Polares · Relativo · MAS · Newton puro · Ligaduras · 1D · Centro de masa</b>', '<b>0%</b>', '<b>0%</b>', '0 de 6', 'U1,3,4,5,6,7,11'],
           ['<i>(Total peso)</i>', '—', '<b>100%</b>', '—', '—']
         ]},
-        { t: 'box', kind: 'warn', title: '🎯 Cómo repartir tus horas (según los números)', html: '<b>1) CUERPO RÍGIDO es lo #1 sin discusión:</b> 67% de probabilidad de aparición y 32% del peso. Sale en 4 de los últimos 6 exámenes y cuando sale ocupa varios problemas. <b>Aquí va la mayor parte de tu tiempo.</b> ⚠️ La página NO tiene unidad de esto — pídeme "arma la unidad de cuerpo rígido".<br><b>2) El trío del 50%:</b> momentum lineal, momentum angular y proyectiles, cada uno sale en la mitad de los exámenes. Son tu segunda prioridad — domínalos los tres.<br><b>3) Energía, circular y masa variable:</b> aparición media-baja (17-33%) pero baratos de estudiar y caen mezclados con lo demás. Repásalos.<br><b>4) El "0%" NO es "no estudiar":</b> polares, MAS, relativo y Newton caen mucho en las Interrogaciones y el final cubre todo; solo que como problema dedicado de EXAMEN FINAL no aparecieron en estos 6. Bajo riesgo, pero dales una pasada al final.' },
+        { t: 'box', kind: 'warn', title: '🎯 Cómo repartir tus horas (según los números)', html: '<b>1) CUERPO RÍGIDO es lo #1 sin discusión:</b> 67% de probabilidad de aparición y 32% del peso. Sale en 4 de los últimos 6 exámenes y cuando sale ocupa varios problemas. <b>Aquí va la mayor parte de tu tiempo.</b> ⚠️ La página NO tiene unidad de esto — pídeme "arma la unidad de cuerpo rígido".<br><b>2) El trío del 50%:</b> momentum lineal, momentum angular y proyectiles, cada uno sale en la mitad de los exámenes. Son tu segunda prioridad — domínalos los tres.<br><b>3) Energía, circular y masa variable:</b> aparición media-baja (17-33%) pero baratos de estudiar y caen mezclados con lo demás. Repásalos.<br><b>4) El "0%" NO es "no estudiar" — y ojo con la trampa:</b> los porcentajes de arriba miden el tema PRINCIPAL de cada problema. Pero <b>roce, ligaduras y DCL/Newton casi nunca son "el problema", sino la HERRAMIENTA con la que resuelves los otros</b> (ver el box siguiente 👇). Y polares, MAS y relativo, aunque dieron 0% como problema dedicado en estos 6 finales, caen mucho en las Interrogaciones y el final cubre todo el semestre. Dales una pasada al final.' },
+        { t: 'box', kind: 'exam', title: '🔧 Herramientas transversales (esto respondió tu pregunta sobre roce y ligaduras)', html: 'Tenías razón: <b>roce y ligaduras SÍ entran</b>, pero como <b>subpregunta/herramienta dentro de problemas más grandes</b>, no como problema propio. Revisé los 6 exámenes y conté en qué fracción de los ~19 problemas aparece cada herramienta:<br><br>🔧 <b>DCL / Newton / descomponer fuerzas</b> → en <b>~80%</b> de los problemas. Es la base de casi todo.<br>🔧 <b>Ligaduras</b> (cuerda, polea, y la rodadura sin deslizar $a=\\alpha R$) → en <b>~55%</b>. Toda rodadura de cuerpo rígido lleva una ligadura escondida; el examen 2025 incluso pide "escriba las ecuaciones de ligadura".<br>🔧 <b>Trabajo y energía</b> (para sacar velocidades) → en <b>~50%</b>.<br>🔧 <b>Trigonometría / planos inclinados</b> → en <b>~50%</b>.<br>🔧 <b>Roce</b> (estático en la rodadura, cinético en planos, viscoso) → en <b>~40%</b>.<br><br><b>Conclusión:</b> estos temas NO los puedes saltar aunque su "Sale como problema" sea 0%. Son las llaves con las que abres los problemas de cuerpo rígido, momentum y energía. Domínalos como herramienta, no como tema aislado.' },
         { t: 'box', kind: 'def', title: 'Detalle: qué cayó en cada examen', html: '<b>2021-1:</b> camión que suelta agua (masa variable) · péndulo con clavo (circular+energía) · bloque pierde contacto (circular+energía) · choque en plano inclinado (energía+momentum) · choque con coef. restitución (energía+momentum). <i>← examen sin cuerpo rígido</i><br><b>2022-2:</b> proyectil + roce viscoso · bala en bloque con resorte (momentum).<br><b>2023-2:</b> anillo gira y se desprende (circular+proyectil) · barra en equilibrio (cuerpo rígido) · esfera+polea+bloque (cuerpo rígido).<br><b>2024-1:</b> proyectil con viento · disco gira + persona camina, conserva L (momentum angular) · barra bisagra (cuerpo rígido).<br><b>2024-2:</b> esquía + agarra mochila (energía+momentum) · plasticina choca barra (momentum angular) · disco que rueda (cuerpo rígido).<br><b>2025-1:</b> cilindro con cuerda (cuerpo rígido) · cuerpo que rueda sin deslizar (cuerpo rígido) · bala se incrusta en disco (momentum angular).' },
         { t: 'box', kind: 'def', title: 'Honestidad sobre la muestra', html: 'Son <b>6 exámenes</b> (≈19 problemas) — los únicos exámenes finales reales de FIS1514 que existen entre todo tu material (busqué también en los perfiles de Studocu y Scribd que pasaste). Es muestra chica: úsala para ver tendencias gruesas, no para apostar al decimal. Si consigues más exámenes finales (otros años), pásamelos y recalculo. <b>Dejé fuera:</b> FIS1513 (otro curso), I1/I2/Controles (no son examen), mocks de IA y guías.' }
       ]
@@ -426,8 +427,8 @@ U({
   id: 'u5', block: 'cine', prio: 5, icon: '⛓️',
   tag: 'Unidad 5 · Ligaduras',
   title: 'Ligaduras cinemáticas (poleas)',
-  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
-  desc: '📊 No salió como problema dedicado (aparece DENTRO de otros) · Cuando varios cuerpos están unidos por cuerdas inextensibles, sus aceleraciones están relacionadas. Esa relación se llama ligadura y siempre cae en el examen.',
+  badge: { text: '🔧 Herramienta · ~55% probl.', cls: 'pill-hot' },
+  desc: '📊 No es problema dedicado (0%), pero es HERRAMIENTA en ~55% de los problemas: toda polea, cuerda y rodadura sin deslizar ($a=\\alpha R$) lleva una ligadura. Imprescindible · Cuando varios cuerpos están unidos por cuerdas inextensibles, sus aceleraciones están relacionadas. Esa relación se llama ligadura y siempre cae en el examen.',
   lessons: [
     {
       id: 'u5l1', title: 'La idea: el largo de la cuerda es CONSTANTE',
@@ -483,8 +484,8 @@ U({
   id: 'u6', block: 'newton', prio: 3, icon: '🟦',
   tag: 'Unidad 6 · Newton y DCL',
   title: 'Leyes de Newton y roce',
-  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
-  desc: '📊 No salió como problema dedicado en los finales · Las tres leyes, el DCL paso a paso, roce estático vs cinético, "¿se mueve o no?", planos inclinados con polea, fuerzas dependientes de la velocidad.',
+  badge: { text: '🔧 Herramienta · ~80% probl.', cls: 'pill-hot' },
+  desc: '📊 No es problema dedicado (0%), pero DCL/Newton es la HERRAMIENTA en ~80% de los problemas y el roce en ~40%. La base de casi todo · Las tres leyes, el DCL paso a paso, roce estático vs cinético, "¿se mueve o no?", planos inclinados con polea, fuerzas dependientes de la velocidad.',
   lessons: [
     {
       id: 'u6l1', title: 'Las tres leyes y los tipos de fuerza',
@@ -542,8 +543,8 @@ U({
   id: 'u7', block: 'newton', prio: 4, icon: '🛒',
   tag: 'Unidad 7 · Acelerados',
   title: 'Sistemas acelerados, cuñas y fuerzas de contacto',
-  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
-  desc: '📊 No salió en los finales · Carros que aceleran, bloques sobre cuñas, fuerzas de contacto en montajes que se mueven juntos. Aplicación directa de Newton.',
+  badge: { text: '🔧 Herramienta ocasional', cls: 'pill-new' },
+  desc: '📊 Herramienta ocasional: sistemas que aceleran, cuñas, fuerzas de contacto · Carros que aceleran, bloques sobre cuñas, fuerzas de contacto en montajes que se mueven juntos. Aplicación directa de Newton.',
   lessons: [
     {
       id: 'u7l1', title: 'Estrategia para sistemas acelerados',
