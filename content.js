@@ -35,9 +35,25 @@ U({
       id: 'u0l1', title: 'Qué entra al Examen Final del 2 de julio',
       blocks: [
         { t: 'p', html: 'Hola León 👋. El examen es el <b>02 de julio a las 13:30</b>, dura 3h aprox., pesa <b>30%</b> de la nota y <b>NO hay eximición</b>. Entra <b>TODO el semestre</b>. Aquí está la foto completa para que sepas dónde poner tus horas.' },
-        { t: 'box', kind: 'def', title: '📋 Temario completo (según el programa oficial)', html: '<b>1. Cinemática de partículas</b><br>&nbsp;&nbsp;a) Movimiento 1D — b) 2D y 3D — c) Polares y cilíndricas — d) Movimiento relativo — e) Ligaduras (vínculo cinemático)<br><b>2. Dinámica de partículas</b><br>&nbsp;&nbsp;a) Leyes de Newton — b) Ecuaciones de movimiento — c) Equilibrio estático — d) Trabajo-energía cinética — e) Energía potencial — f) Oscilador armónico — g) Impulso y momentum lineal — h) Impulso y momentum angular<br><b>3. Dinámica de sistemas</b><br>&nbsp;&nbsp;a) Trabajo-energía — b) Impulso-momentum — c) Conservación — d) Choques — e) Masa variable — f) Centro de masa — g) Torque<br><b>4. Cuerpo rígido en el plano</b> (tema marginal en este curso; el examen suele <i>NO</i> entrar a momento de inercia complejo, pero ojo con rotación pura)' },
-        { t: 'box', kind: 'exam', title: '🎯 Distribución típica de un examen final FIS1514 (basado en exámenes/I2 de 2021-2024)', html: 'Un examen típico tiene <b>4 problemas largos</b>, cada uno con 2-4 partes. La repartición histórica:<br><br><b>≈ 1 problema:</b> cinemática pura (proyectiles, polares, relativo, o ligaduras + cinemática)<br><b>≈ 1 problema:</b> Newton + DCL (sistemas acelerados, cuñas, roce, circular)<br><b>≈ 1 problema:</b> energía y/o MAS (resorte+roce, multi-tramo, conservación, oscilador)<br><b>≈ 1 problema:</b> momentum (choques, masa variable, o momentum angular)<br><br>Pueden ser MIXTOS (ej. energía para llegar al choque + momentum en el choque + momentum angular después). Por eso necesitas dominar TODO, no solo un tema.' },
-        { t: 'box', kind: 'warn', title: '⚠️ Lo que es CASI SEGURO que va a salir', html: '• <b>Coordenadas polares con dinámica</b> (problema "brazo robótico", "esfera en ranura"): SIEMPRE cae uno. Es lo que más enreda a la gente.<br>• <b>Proyectiles</b> (lanzamientos parabólicos con dato indirecto): clásico de la parte 1.<br>• <b>Resorte + roce</b> en una guía o plano: típico del bloque de energía.<br>• <b>MAS</b> con condiciones iniciales (encontrar $x(t)$): típico del bloque de oscilaciones.<br>• <b>Choque inelástico</b> seguido de movimiento (clavarse en un resorte, péndulo balístico).<br>• <b>Movimiento relativo</b> (lluvia, río, aeroplano): muy probable.<br>• <b>Ligaduras de poleas</b> (relación 2:1 o más compleja): infaltable.' }
+        { t: 'box', kind: 'def', title: '📋 Temario completo (según el programa oficial)', html: '<b>1. Cinemática de partículas</b><br>&nbsp;&nbsp;a) Movimiento 1D — b) 2D y 3D — c) Polares y cilíndricas — d) Movimiento relativo — e) Ligaduras (vínculo cinemático)<br><b>2. Dinámica de partículas</b><br>&nbsp;&nbsp;a) Leyes de Newton — b) Ecuaciones de movimiento — c) Equilibrio estático — d) Trabajo-energía cinética — e) Energía potencial — f) Oscilador armónico — g) Impulso y momentum lineal — h) Impulso y momentum angular<br><b>3. Dinámica de sistemas</b><br>&nbsp;&nbsp;a) Trabajo-energía — b) Impulso-momentum — c) Conservación — d) Choques — e) Masa variable — f) Centro de masa — g) Torque<br><b>4. Cuerpo rígido en el plano</b> ⚠️ <b>OJO: NO es marginal.</b> Momento de inercia, rotación en torno a eje fijo, rodadura, torque y equilibrio de barras/discos. En los exámenes finales reales <b>es el bloque que MÁS cae</b> (ver estadística en la lección siguiente).' },
+        { t: 'box', kind: 'exam', title: '🎯 Distribución típica', html: 'Un examen final FIS1514 tiene <b>4 problemas largos</b> (cada uno con 2-4 partes) y a veces preguntas cortas. La <b>estadística exacta de los exámenes reales</b> está en la lección de aquí abajo 👇 ("📊 Probabilidad real por tema"). El titular: el bloque de <b>cuerpo rígido y rotación domina los finales</b>, seguido de proyectiles y momentum.' }
+      ]
+    },
+    {
+      id: 'u0l1c', title: '📊 Probabilidad real por tema (exámenes finales 2022-2024)',
+      blocks: [
+        { t: 'p', html: 'Conté <b>todos los problemas de los 4 exámenes finales reales de FIS1514</b> que tienes en la carpeta (2022-2, 2023-2, 2024-1, 2024-2): en total <b>11 problemas</b>. Clasifiqué cada uno por tema; los problemas mixtos los repartí en fracciones (ej. un problema mitad energía / mitad choque cuenta 0,5 a cada uno). Estos son los porcentajes exactos.' },
+        { t: 'ftable', head: ['Tema', '% del examen', 'Problemas', 'Dónde está en esta página'], rows: [
+          ['<b>Cuerpo rígido</b> (rotación de barras/discos, rodadura, equilibrio, torque)', '<b>36%</b>', '4 / 11', 'U14 + ⚠️ falta unidad propia'],
+          ['<b>Proyectiles / 2D</b>', '<b>23%</b>', '2,5 / 11', 'U2 ⭐'],
+          ['<b>Momentum angular</b> (disco que gira, conservación de L)', '<b>18%</b>', '2 / 11', 'U14'],
+          ['<b>Momentum lineal / choques</b>', '<b>14%</b>', '1,5 / 11', 'U12'],
+          ['<b>Trabajo y energía</b>', '<b>5%</b>', '0,5 / 11', 'U9 + U10'],
+          ['<b>Circular dinámico</b>', '<b>5%</b>', '0,5 / 11', 'U8'],
+          ['Polares · Relativo · MAS · Newton puro · Ligaduras · 1D · Centro de masa', '0% *', '0 / 11', 'U1, U3, U4, U5, U6, U7, U11, U13']
+        ]},
+        { t: 'box', kind: 'warn', title: '⚠️ Lee esto antes de sacar conclusiones', html: '<b>1) El gran titular:</b> juntando <b>cuerpo rígido (36%) + momentum angular (18%) = 54%</b> de los exámenes finales. <b>Más de la mitad del examen es rotación.</b> La página todavía está fuerte en Newton/energía/momentum lineal (lo de la Prueba 2) y <b>floja en cuerpo rígido</b> — esa es tu mayor brecha. Pídeme que arme la unidad de cuerpo rígido si quieres.<br><b>2) El "0%" NO significa "no estudiar".</b> Polares, MAS, relativo y Newton caen MUCHO en las Interrogaciones 1 y 2, y el examen final cubre TODO el semestre — solo que en estos 4 finales no salieron como problema dedicado. Son de bajo riesgo en el final pero igual debes saberlos (pueden venir como pregunta corta o mezclados).<br><b>3) Muestra chica:</b> son 4 exámenes (11 problemas). Sirve para ver tendencias gruesas, no para apostar al decimal.' },
+        { t: 'box', kind: 'def', title: 'Qué dejé FUERA del conteo (y por qué)', html: '• <b>Examen FIS1513 2017:</b> es de otro curso (Estática y Dinámica), no FIS1514.<br>• <b>2 "exámenes" tipo Studocu</b> de la carpeta: están generados/recopilados por IA, no son exámenes reales rendidos → sesgarían los números.<br>• <b>Guía de Diego Teca:</b> es guía de preparación, no un examen rendido.<br>Aun así, esos tres <b>confirman la misma tendencia</b>: mucho proyectil, momentum y rotación.' }
       ]
     },
     {
@@ -139,7 +155,7 @@ U({
   tag: 'Unidad 1 · Cinemática 1D',
   title: 'Movimiento rectilíneo',
   badge: { text: 'base', cls: 'pill-new' },
-  desc: 'Posición, velocidad, aceleración. MRU y MRUA, integración cuando a depende de t, v o x. La parte "fácil" del examen — si la dominas te asegura puntos.',
+  desc: '📊 0% como problema dedicado en los finales (pero es la base de la I1) · Posición, velocidad, aceleración. MRU y MRUA, integración cuando a depende de t, v o x. La parte "fácil" del examen — si la dominas te asegura puntos.',
   lessons: [
     {
       id: 'u1l1', title: 'Posición, velocidad, aceleración: qué son y cómo se relacionan',
@@ -211,7 +227,7 @@ U({
   tag: 'Unidad 2 · 2D y proyectiles',
   title: 'Movimiento en el plano y proyectiles',
   badge: { text: 'cae siempre', cls: 'pill-hot' },
-  desc: 'Vectores velocidad y aceleración en 2D/3D. Lanzamientos parabólicos (la estrella de la I1 y suele aparecer en el examen).',
+  desc: '📊 23% de los exámenes finales ⭐ · Vectores velocidad y aceleración en 2D/3D. Lanzamientos parabólicos (la estrella de la I1 y suele aparecer en el examen).',
   lessons: [
     {
       id: 'u2l1', title: 'Vectores posición, velocidad y aceleración en 2D',
@@ -280,7 +296,7 @@ U({
   tag: 'Unidad 3 · Polares',
   title: 'Coordenadas polares y cilíndricas',
   badge: { text: '⭐ cae sí o sí', cls: 'pill-hot' },
-  desc: 'Cuando el movimiento "gira", las cartesianas son un infierno. Las polares son el cuchillo afilado. Tema estrella del curso — un problema entero del examen casi siempre es de esto.',
+  desc: '📊 0% en estos 4 finales (pero estrella de la I1) · Cuando el movimiento "gira", las cartesianas son un infierno. Las polares son el cuchillo afilado. Tema estrella del curso — un problema entero del examen casi siempre es de esto.',
   lessons: [
     {
       id: 'u3l1', title: 'Por qué polares y los vectores unitarios $\\hat u_r,\\hat u_\\theta$',
@@ -357,7 +373,7 @@ U({
   tag: 'Unidad 4 · Relativo',
   title: 'Movimiento relativo',
   badge: { text: 'cae mucho', cls: 'pill-hot' },
-  desc: '"¿Cómo se ve la pelota desde el bote?". Lluvia con viento, río con corriente, avión vs aire. La fórmula clave es UNA.',
+  desc: '📊 0% en los finales (cae en la I1) · "¿Cómo se ve la pelota desde el bote?". Lluvia con viento, río con corriente, avión vs aire. La fórmula clave es UNA.',
   lessons: [
     {
       id: 'u4l1', title: 'La idea: dos observadores distintos ven cosas distintas',
@@ -407,7 +423,7 @@ U({
   tag: 'Unidad 5 · Ligaduras',
   title: 'Ligaduras cinemáticas (poleas)',
   badge: { text: 'infaltable', cls: 'pill-hot' },
-  desc: 'Cuando varios cuerpos están unidos por cuerdas inextensibles, sus aceleraciones están relacionadas. Esa relación se llama ligadura y siempre cae en el examen.',
+  desc: '📊 0% como problema dedicado (aparece DENTRO de otros) · Cuando varios cuerpos están unidos por cuerdas inextensibles, sus aceleraciones están relacionadas. Esa relación se llama ligadura y siempre cae en el examen.',
   lessons: [
     {
       id: 'u5l1', title: 'La idea: el largo de la cuerda es CONSTANTE',
@@ -464,7 +480,7 @@ U({
   tag: 'Unidad 6 · Newton y DCL',
   title: 'Leyes de Newton y roce',
   badge: { text: 'la base', cls: 'pill-hot' },
-  desc: 'Las tres leyes, el DCL paso a paso, roce estático vs cinético, "¿se mueve o no?", planos inclinados con polea, fuerzas dependientes de la velocidad.',
+  desc: '📊 0% como problema dedicado en los finales · Las tres leyes, el DCL paso a paso, roce estático vs cinético, "¿se mueve o no?", planos inclinados con polea, fuerzas dependientes de la velocidad.',
   lessons: [
     {
       id: 'u6l1', title: 'Las tres leyes y los tipos de fuerza',
@@ -523,7 +539,7 @@ U({
   tag: 'Unidad 7 · Acelerados',
   title: 'Sistemas acelerados, cuñas y fuerzas de contacto',
   badge: { text: '⭐ cae', cls: 'pill-hot' },
-  desc: 'Carros que aceleran, bloques sobre cuñas, fuerzas de contacto en montajes que se mueven juntos. Aplicación directa de Newton.',
+  desc: '📊 0% en los finales · Carros que aceleran, bloques sobre cuñas, fuerzas de contacto en montajes que se mueven juntos. Aplicación directa de Newton.',
   lessons: [
     {
       id: 'u7l1', title: 'Estrategia para sistemas acelerados',
@@ -566,7 +582,7 @@ U({
   tag: 'Unidad 8 · Circular',
   title: 'Movimiento circular con fuerzas (rizo, cono, polares con N)',
   badge: { text: '⭐ cae', cls: 'pill-hot' },
-  desc: 'Aceleración centrípeta, rizo (loop), cono cónico, péndulo cónico, y problemas en polares donde la normal cambia.',
+  desc: '📊 5% de los exámenes finales · Aceleración centrípeta, rizo (loop), cono cónico, péndulo cónico, y problemas en polares donde la normal cambia.',
   lessons: [
     {
       id: 'u8l1', title: 'La idea: si gira, hay aceleración hacia el centro',
@@ -627,7 +643,7 @@ U({
   tag: 'Unidad 9 · Trabajo y K',
   title: 'Trabajo y energía cinética',
   badge: { text: '⭐ corazón', cls: 'pill-hot' },
-  desc: 'Trabajo de una fuerza, teorema W-K, trabajo de fuerzas típicas (peso, resorte, roce). La base del bloque más importante del examen.',
+  desc: '📊 ~5% (bloque trabajo-energía) · Trabajo de una fuerza, teorema W-K, trabajo de fuerzas típicas (peso, resorte, roce). La base del bloque más importante del examen.',
   lessons: [
     {
       id: 'u9l1', title: 'Trabajo: la fuerza por el desplazamiento (con producto punto)',
@@ -669,7 +685,7 @@ U({
   tag: 'Unidad 10 · U y conservación',
   title: 'Energía potencial y conservación',
   badge: { text: '⭐ TOP', cls: 'pill-hot' },
-  desc: 'Energía potencial gravitatoria y elástica, conservación de la energía mecánica, y la fórmula $E_f-E_i=W_{nc}$ para problemas con roce. Multi-tramo, resorte+roce, vueltas verticales.',
+  desc: '📊 ~5% (bloque trabajo-energía) · Energía potencial gravitatoria y elástica, conservación de la energía mecánica, y la fórmula $E_f-E_i=W_{nc}$ para problemas con roce. Multi-tramo, resorte+roce, vueltas verticales.',
   lessons: [
     {
       id: 'u10l1', title: 'Energía potencial: gravitatoria y elástica',
@@ -735,7 +751,7 @@ U({
   tag: 'Unidad 11 · MAS',
   title: 'Movimiento armónico simple',
   badge: { text: '⭐ cae', cls: 'pill-hot' },
-  desc: 'Resorte, péndulo simple, sistemas equivalentes. $\\omega,T,f$, $x(t),v(t),a(t)$ y energía en MAS. Las condiciones iniciales son la trampa más común.',
+  desc: '📊 0% en estos finales (pero clásico de la I2) · Resorte, péndulo simple, sistemas equivalentes. $\\omega,T,f$, $x(t),v(t),a(t)$ y energía en MAS. Las condiciones iniciales son la trampa más común.',
   lessons: [
     {
       id: 'u11l1', title: 'La ecuación maestra y sus soluciones',
@@ -797,7 +813,7 @@ U({
   tag: 'Unidad 12 · Momentum',
   title: 'Impulso, momentum y choques',
   badge: { text: 'cae', cls: 'pill-hot' },
-  desc: 'Impulso, conservación de momentum, choques elásticos e inelásticos. Las dos ecuaciones para choques 2D.',
+  desc: '📊 14% de los exámenes finales · Impulso, conservación de momentum, choques elásticos e inelásticos. Las dos ecuaciones para choques 2D.',
   lessons: [
     {
       id: 'u12l1', title: 'Impulso y momentum lineal',
@@ -861,7 +877,7 @@ U({
   tag: 'Unidad 13 · CM y masa variable',
   title: 'Centro de masa y sistemas de masa variable',
   badge: { text: 'cae', cls: 'pill-new' },
-  desc: 'Centro de masa de un sistema, ecuación CM, y problemas tipo cohete / cadena / gota.',
+  desc: '📊 0% en los finales · Centro de masa de un sistema, ecuación CM, y problemas tipo cohete / cadena / gota.',
   lessons: [
     {
       id: 'u13l1', title: 'Centro de masa: la posición "promedio ponderada"',
@@ -902,7 +918,7 @@ U({
   tag: 'Unidad 14 · Angular',
   title: 'Momentum angular y torque',
   badge: { text: '⭐ cae', cls: 'pill-hot' },
-  desc: 'Definiciones de $\\vec L$ y $\\vec\\tau$, conservación, aplicación a partículas en órbita o patinadora que junta brazos.',
+  desc: '📊 18% momentum angular + 36% cuerpo rígido = el bloque MÁS grande del final ⭐ · Definiciones de $\\vec L$ y $\\vec\\tau$, conservación, aplicación a partículas en órbita o patinadora que junta brazos.',
   lessons: [
     {
       id: 'u14l1', title: 'Definiciones y la ecuación maestra',
