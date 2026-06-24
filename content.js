@@ -158,7 +158,7 @@ U({
   id: 'u1', block: 'cine', prio: 1, icon: '📏',
   tag: 'Unidad 1 · Cinemática 1D',
   title: 'Movimiento rectilíneo',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió como problema dedicado en los 6 finales (pero es la base de la I1) · Posición, velocidad, aceleración. MRU y MRUA, integración cuando a depende de t, v o x. La parte "fácil" del examen — si la dominas te asegura puntos.',
   lessons: [
     {
@@ -230,7 +230,7 @@ U({
   id: 'u2', block: 'cine', prio: 2, icon: '🎯',
   tag: 'Unidad 2 · 2D y proyectiles',
   title: 'Movimiento en el plano y proyectiles',
-  badge: { text: '50% sale · 13%', cls: 'pill-hot' },
+  badge: { text: 'Sale 50% · Peso 13%', cls: 'pill-hot' },
   desc: '📊 Aparece en 50% de los exámenes · peso 13% · Vectores velocidad y aceleración en 2D/3D. Lanzamientos parabólicos (la estrella de la I1 y suele aparecer en el examen).',
   lessons: [
     {
@@ -299,7 +299,7 @@ U({
   id: 'u3', block: 'cine', prio: 3, icon: '🌀',
   tag: 'Unidad 3 · Polares',
   title: 'Coordenadas polares y cilíndricas',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió en estos 6 finales (pero estrella de la I1) · Cuando el movimiento "gira", las cartesianas son un infierno. Las polares son el cuchillo afilado. Tema estrella del curso — un problema entero del examen casi siempre es de esto.',
   lessons: [
     {
@@ -376,7 +376,7 @@ U({
   id: 'u4', block: 'cine', prio: 4, icon: '🚂',
   tag: 'Unidad 4 · Relativo',
   title: 'Movimiento relativo',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió en los finales (cae en la I1) · "¿Cómo se ve la pelota desde el bote?". Lluvia con viento, río con corriente, avión vs aire. La fórmula clave es UNA.',
   lessons: [
     {
@@ -426,7 +426,7 @@ U({
   id: 'u5', block: 'cine', prio: 5, icon: '⛓️',
   tag: 'Unidad 5 · Ligaduras',
   title: 'Ligaduras cinemáticas (poleas)',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió como problema dedicado (aparece DENTRO de otros) · Cuando varios cuerpos están unidos por cuerdas inextensibles, sus aceleraciones están relacionadas. Esa relación se llama ligadura y siempre cae en el examen.',
   lessons: [
     {
@@ -483,7 +483,7 @@ U({
   id: 'u6', block: 'newton', prio: 3, icon: '🟦',
   tag: 'Unidad 6 · Newton y DCL',
   title: 'Leyes de Newton y roce',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió como problema dedicado en los finales · Las tres leyes, el DCL paso a paso, roce estático vs cinético, "¿se mueve o no?", planos inclinados con polea, fuerzas dependientes de la velocidad.',
   lessons: [
     {
@@ -542,7 +542,7 @@ U({
   id: 'u7', block: 'newton', prio: 4, icon: '🛒',
   tag: 'Unidad 7 · Acelerados',
   title: 'Sistemas acelerados, cuñas y fuerzas de contacto',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió en los finales · Carros que aceleran, bloques sobre cuñas, fuerzas de contacto en montajes que se mueven juntos. Aplicación directa de Newton.',
   lessons: [
     {
@@ -585,7 +585,7 @@ U({
   id: 'u8', block: 'newton', prio: 5, icon: '🎡',
   tag: 'Unidad 8 · Circular',
   title: 'Movimiento circular con fuerzas (rizo, cono, polares con N)',
-  badge: { text: '33% sale · 8%', cls: 'pill-new' },
+  badge: { text: 'Sale 33% · Peso 8%', cls: 'pill-new' },
   desc: '📊 Aparece en 33% · peso 8% · Aceleración centrípeta, rizo (loop), cono cónico, péndulo cónico, y problemas en polares donde la normal cambia.',
   lessons: [
     {
@@ -646,7 +646,7 @@ U({
   id: 'u9', block: 'energia', prio: 6, icon: '⚡',
   tag: 'Unidad 9 · Trabajo y K',
   title: 'Trabajo y energía cinética',
-  badge: { text: '33% sale · 13%', cls: 'pill-new' },
+  badge: { text: 'Sale 33% · Peso 13%', cls: 'pill-new' },
   desc: '📊 Aparece en 33% · peso 13% (trabajo-energía) · Trabajo de una fuerza, teorema W-K, trabajo de fuerzas típicas (peso, resorte, roce). La base del bloque más importante del examen.',
   lessons: [
     {
@@ -688,7 +688,7 @@ U({
   id: 'u10', block: 'energia', prio: 7, icon: '🏔️',
   tag: 'Unidad 10 · U y conservación',
   title: 'Energía potencial y conservación',
-  badge: { text: '33% sale · 13%', cls: 'pill-new' },
+  badge: { text: 'Sale 33% · Peso 13%', cls: 'pill-new' },
   desc: '📊 Aparece en 33% · peso 13% (trabajo-energía) · Energía potencial gravitatoria y elástica, conservación de la energía mecánica, y la fórmula $E_f-E_i=W_{nc}$ para problemas con roce. Multi-tramo, resorte+roce, vueltas verticales.',
   lessons: [
     {
@@ -754,7 +754,7 @@ U({
   id: 'u11', block: 'energia', prio: 8, icon: '🪀',
   tag: 'Unidad 11 · MAS',
   title: 'Movimiento armónico simple',
-  badge: { text: '0% sale', cls: 'pill-new' },
+  badge: { text: 'Sale 0% · Peso 0%', cls: 'pill-new' },
   desc: '📊 No salió en estos finales (pero clásico de la I2) · Resorte, péndulo simple, sistemas equivalentes. $\\omega,T,f$, $x(t),v(t),a(t)$ y energía en MAS. Las condiciones iniciales son la trampa más común.',
   lessons: [
     {
@@ -816,7 +816,7 @@ U({
   id: 'u12', block: 'momentum', prio: 9, icon: '💥',
   tag: 'Unidad 12 · Momentum',
   title: 'Impulso, momentum y choques',
-  badge: { text: '50% sale · 13%', cls: 'pill-hot' },
+  badge: { text: 'Sale 50% · Peso 13%', cls: 'pill-hot' },
   desc: '📊 Aparece en 50% · peso 13% · Impulso, conservación de momentum, choques elásticos e inelásticos. Las dos ecuaciones para choques 2D.',
   lessons: [
     {
@@ -880,7 +880,7 @@ U({
   id: 'u13', block: 'momentum', prio: 10, icon: '🎯',
   tag: 'Unidad 13 · CM y masa variable',
   title: 'Centro de masa y sistemas de masa variable',
-  badge: { text: '17% sale · 5%', cls: 'pill-new' },
+  badge: { text: 'Sale 17% · Peso 5%', cls: 'pill-new' },
   desc: '📊 Aparece en 17% · peso 5% (¡el camión 2021 que suelta agua!) · Centro de masa de un sistema, ecuación CM, y problemas tipo cohete / cadena / gota.',
   lessons: [
     {
@@ -921,7 +921,7 @@ U({
   id: 'u14', block: 'sistemas', prio: 11, icon: '🌪️',
   tag: 'Unidad 14 · Angular',
   title: 'Momentum angular y torque',
-  badge: { text: '🔴 50% sale · 16%', cls: 'pill-hot' },
+  badge: { text: '🔴 Sale 50% · Peso 16%', cls: 'pill-hot' },
   desc: '📊 Momentum angular: 50% aparición · 16% peso. ⚠️ Cuerpo rígido (67% aparición, 32% peso) es lo que MÁS cae y aún no está en la página · Definiciones de $\\vec L$ y $\\vec\\tau$, conservación, aplicación a partículas en órbita o patinadora que junta brazos.',
   lessons: [
     {
